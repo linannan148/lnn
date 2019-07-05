@@ -1,0 +1,21 @@
+{
+    "name": "lnn/comtest",
+    "description": "linannan build composer test",
+    "type": "library",
+    "authors": [
+        {
+            "name": "linannan",
+            "email": "13730032148@163.com"
+        }
+    ],
+    "minimum-stability": "stable",
+    "require": {
+        "php" : ">=5.6"
+    },
+    "autoload" : {
+        "psr-4" : {
+            "linannan\\test\\hello\\" : "src/",
+         }
+    }
+
+}
