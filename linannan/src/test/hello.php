@@ -2,14 +2,14 @@
 
 namespace linannan\test;
 
-class Hello {
-    
-    public function __construct () {
-        
+class Hello
+{
+    public function __construct()
+    {
     }
-    
-    public function ehello () {
+
+    public function ehello()
+    {
         echo 'hello world';
     }
 }
-
