@@ -14,7 +14,7 @@
                     "parameter": {
                         "username": "root",
                         "password": "root",
-                        "where": "create_time > '2021-01-16'"
+                        "where": "create_time > '2021-01-16'",
                         "column": [
                             "id",
                             "name"
