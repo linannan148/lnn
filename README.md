@@ -14,24 +14,12 @@
                     "parameter": {
                         "column" : [
                             {
-                                "value": "DataX",
-                                "type": "string"
+                                "value": "id",
+                                "type": "int"
                             },
                             {
-                                "value": 19880808,
-                                "type": "long"
-                            },
-                            {
-                                "value": "1988-08-08 08:08:08",
-                                "type": "date"
-                            },
-                            {
-                                "value": true,
-                                "type": "bool"
-                            },
-                            {
-                                "value": "test",
-                                "type": "bytes"
+                                "value": "name",
+                                "type": "name"
                             }
                         ],
                         "sliceRecordCount": 1000
