@@ -9,20 +9,25 @@
         },
         "content": [
             {
-                 "reader": {
-                    "name": "streamreader",
+                "reader": {
+                    "name": "mysqlreader",
                     "parameter": {
-                        "column" : [
-                            {
-                                "value": "id",
-                                "type": "int"
-                            },
-                            {
-                                "value": "name",
-                                "type": "name"
-                            }
+                        "username": "root",
+                        "password": "root",
+                        "column": [
+                            "id",
+                            "name"
                         ],
-                        "sliceRecordCount": 1000
+                        "connection": [
+                            {
+                                "table": [
+                                    "table"
+                                ],
+                                "jdbcUrl": [
+                                    "jdbc:mysql://127.0.0.1:3306/database"
+                                ]
+                            }
+                        ]
                     }
                 },
                 "writer": {
@@ -34,9 +39,6 @@
                         "column": [
                             "id",
                             "name"
-                        ],
-                        "session": [
-                        	"set session sql_mode='ANSI'"
                         ],
                         "preSql": [
                             "delete from test"
